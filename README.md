@@ -9,6 +9,8 @@ This is a Express API wrapper for WXtoImage.
 
 2. NodeJS and NPM obviously ( Recommend: `npm i nodemon -g` for hot-reloading for testing )
 
-3. If you have Nodemon: `nodemon app.js` otherwise `npm run host`
+3. Install packages from package.json `npm i`
+
+4. If you have Nodemon: `nodemon app.js` otherwise `npm run host`
 
 This project is far from complete and is just a piece to the puzzle I'm building. Enjoy!
