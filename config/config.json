@@ -1,0 +1,12 @@
+{
+  "development": {
+    "host": {
+      "port": 3535
+    }
+  },
+  "production": {
+    "host": {
+      "port": 8080
+    }
+  }
+}
