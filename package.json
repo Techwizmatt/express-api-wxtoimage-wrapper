@@ -1,10 +1,11 @@
 {
   "name": "satelite-img",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Satelite-img is a backend system for automatically handling and receiving images from NOAA",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon app.js"
+    "serve": "nodemon app.js",
+    "host": "node app.js"
   },
   "dependencies": {
     "async": "^3.2.0",
