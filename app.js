@@ -17,6 +17,8 @@ app.use(cors({
 }))
 
 app.use(expressUpload({
+    useTempFiles: true,
+    tempFileDir: path.join(process.cwd(), '/tmp'),
     limits: 21474836480,
     debug: false,
     uploadTimeout: 4800000

@@ -2,11 +2,19 @@
   "development": {
     "host": {
       "port": 3535
+    },
+    "path": {
+      "input": "{~}/tmp/",
+      "output": "{~}/output/"
     }
   },
   "production": {
     "host": {
       "port": 8080
+    },
+    "path": {
+      "input": "{~}/tmp/",
+      "output": "{~}/output"
     }
   }
 }
