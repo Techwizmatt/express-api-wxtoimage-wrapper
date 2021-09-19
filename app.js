@@ -26,5 +26,5 @@ app.use('/', require(path.join(process.cwd(), '/routes')))
 
 // Listen for calls
 app.listen(global.config.port, () => {
-    console.log(`Service Listening and Ready on Port ${global.config.port}`)
+    console.log(`Service Listening and Ready on Port ${global.config.host.port}`)
 })
