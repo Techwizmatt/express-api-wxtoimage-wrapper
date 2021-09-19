@@ -25,6 +25,6 @@ app.use(expressUpload({
 app.use('/', require(path.join(process.cwd(), '/routes')))
 
 // Listen for calls
-app.listen(global.config.port, () => {
+app.listen(global.config.host.port, () => {
     console.log(`Service Listening and Ready on Port ${global.config.host.port}`)
 })
